@@ -1,0 +1,40 @@
+body{
+    margin:0;
+    display:flex;
+    justify-content: center;
+    height:100vh;
+    align-items: center;
+
+}
+
+.input{
+    visibility:hidden;
+}
+
+
+.label{
+    position:absolute;
+    height:40px;
+    width:80px;
+    background-color:lightgray;
+    border-radius:20px;
+    cursor:pointer;
+
+}
+
+.circle{
+    width:34px;
+    background-color:white;
+    border-radius: 50%;
+    height:34px;
+    top: 3px;
+    position:absolute;
+    left:3px;
+    
+}
+
+.input:checked+.label{
+    background-color:black;
+    
+
+}
